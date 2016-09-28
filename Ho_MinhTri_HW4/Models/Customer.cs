@@ -5,6 +5,10 @@ namespace Ho_MinhTri_HW3.Models
 {
     public class Customer
     {
+        //
+        // STATUS: READY FOR CONTROLLER
+        //
+
         //ID
         [Display(Name = "Customer ID")]
         public Int32 CustomerID { get; set; }
