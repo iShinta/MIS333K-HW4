@@ -140,6 +140,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610061743300_InitialCreate.cs" />
+    <Compile Include="Migrations\201610061743300_InitialCreate.Designer.cs">
+      <DependentUpon>201610061743300_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610061826260_InitialSetup.cs" />
+    <Compile Include="Migrations\201610061826260_InitialSetup.Designer.cs">
+      <DependentUpon>201610061826260_InitialSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Committee.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Event.cs" />
@@ -177,6 +186,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201610061743300_InitialCreate.resx">
+      <DependentUpon>201610061743300_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610061826260_InitialSetup.resx">
+      <DependentUpon>201610061826260_InitialSetup.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

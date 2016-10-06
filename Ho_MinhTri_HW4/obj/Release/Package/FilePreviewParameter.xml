@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="utmis333k-mh47723-hw4" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\homin\\OneDrive\\Classes\\MIS333K-Lucy\\Assignments\\Ho_MinhTri_HW4\\Ho_MinhTri_HW4\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\homin\\OneDrive\\Classes\\MIS333K-Lucy\\Assignments\\Ho_MinhTri_HW4\\Ho_MinhTri_HW4\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MyDBConnection-Web.config Connection String" description="" value="Data Source=tcp:fa16-mis333k.database.windows.net,1433;Initial Catalog=hw4;Persist Security Info=False;User ID=ishinta;Password=&quot;C'estlavie&quot;;MultipleActiveResultSets=False;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\homin\\OneDrive\\Classes\\MIS333K-Lucy\\Assignments\\Ho_MinhTri_HW4\\Ho_MinhTri_HW4\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDBConnection']/@connectionString" />
+  </parameter>
+</parameters>
