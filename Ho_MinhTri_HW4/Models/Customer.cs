@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Ho_MinhTri_HW3.Models
+namespace Ho_MinhTri_HW4.Models
 {
     public class Customer
     {
@@ -9,6 +9,7 @@ namespace Ho_MinhTri_HW3.Models
         // STATUS: READY FOR CONTROLLER
         //
 
+        //SCALAR PROPERTIES
         //ID
         [Display(Name = "Customer ID")]
         public Int32 CustomerID { get; set; }
@@ -47,5 +48,8 @@ namespace Ho_MinhTri_HW3.Models
         [Required(ErrorMessage = "Major is required")]
         [Display(Name = "Major")]
         public MajorList Major { get; set; }
+
+        //NAVIGATIONAL PROPERTIES
+        
     }
 }
