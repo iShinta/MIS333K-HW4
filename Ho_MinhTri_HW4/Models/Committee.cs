@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ho_MinhTri_HW4.Models
@@ -6,7 +7,7 @@ namespace Ho_MinhTri_HW4.Models
     public class Committee
     {
         //
-        // A VERIFIER AVANT CONTROLLER
+        // STATUS: READY FOR CONTROLLER
         //
 
         //SCALAR PROPERTIES
@@ -14,12 +15,14 @@ namespace Ho_MinhTri_HW4.Models
         [Display(Name = "Committee ID")]
         public Int32 CommitteeID { get; set; }
 
-        //First Name
+        //Committee Name
         [Required(ErrorMessage = "Committee name is required.")]
         [Display(Name = "Committee Name")]
-        public String FirstName { get; set; }
+        public String CommitteeName { get; set; }
 
         //NAVIGATIONAL PROPERTIES
-
+        [Display (Name = "Comprising Members")]
+        public virtual List<Customer> CustomersList { get; set; }
+        public virtual List<Event> EventsSponsored { get; set; }
     }
 }

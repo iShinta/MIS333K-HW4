@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ho_MinhTri_HW4.Models
@@ -50,6 +51,8 @@ namespace Ho_MinhTri_HW4.Models
         public MajorList Major { get; set; }
 
         //NAVIGATIONAL PROPERTIES
-        
+        [Display (Name = "Events Attending")]
+        public virtual List<Event> EventAttending { get; set; }
+        public virtual List<Committee> CommitteePartOf { get; set; }
     }
 }

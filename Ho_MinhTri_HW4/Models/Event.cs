@@ -7,7 +7,7 @@ namespace Ho_MinhTri_HW4.Models
     public class Event
     {
         //
-        // STATUS: OK
+        // STATUS: READY FOR CONTROLLER
         //
 
         //SCALAR PROPERTIES

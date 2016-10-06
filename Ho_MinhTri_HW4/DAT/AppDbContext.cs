@@ -10,5 +10,7 @@ namespace Ho_MinhTri_HW3.DAL
 
         //Create the db set
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Committee> Committees { get; set; }
+        public DbSet<Event> Events { get; set; }
     }
 }
