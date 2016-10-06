@@ -9,6 +9,7 @@ namespace Ho_MinhTri_HW4.Models
         // A VERIFIER AVANT CONTROLLER
         //
 
+        //SCALAR PROPERTIES
         //ID
         [Display(Name = "Committee ID")]
         public Int32 CommitteeID { get; set; }
@@ -17,5 +18,8 @@ namespace Ho_MinhTri_HW4.Models
         [Required(ErrorMessage = "Committee name is required.")]
         [Display(Name = "Committee Name")]
         public String FirstName { get; set; }
+
+        //NAVIGATIONAL PROPERTIES
+
     }
 }
