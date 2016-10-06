@@ -47,9 +47,9 @@ C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhT
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\System.Web.Webpages.Razor.xml
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\System.Web.Helpers.xml
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\System.Web.Mvc.xml
-C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csprojResolveAssemblyReference.cache
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.dll
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.pdb
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.Migrations.InitialCreate.resources
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csproj.GenerateResource.Cache
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.Migrations.InitialSetup.resources
+C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csprojResolveAssemblyReference.cache
