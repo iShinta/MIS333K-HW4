@@ -1,0 +1,26 @@
+﻿@model Ho_MinhTri_HW4.Models.Committee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Committee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CommitteeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CommitteeName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CommitteeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

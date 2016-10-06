@@ -1,7 +1,7 @@
 ﻿using Ho_MinhTri_HW4.Models;
 using System.Data.Entity;
 
-namespace Ho_MinhTri_HW3.DAL
+namespace Ho_MinhTri_HW4.DAL
 {
     public class AppDbContext : DbContext
     {
