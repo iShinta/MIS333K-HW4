@@ -133,10 +133,7 @@ namespace Ho_MinhTri_HW4.Controllers
 
                 db.Entry(eventToChange).State = EntityState.Modified;
                 db.SaveChanges();
-
-                ViewBag.AllCommittees = GetAllCommittees(@event);
-                ViewBag.AllMembers = GetAllMembers(@event);
-
+                
                 return RedirectToAction("Index");
             }
 

@@ -1,4 +1,3 @@
-C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csprojResolveAssemblyReference.cache
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\roslyn\csc.exe
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\roslyn\csc.exe.config
 C:\Users\homin\OneDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\bin\roslyn\csc.rsp
@@ -106,3 +105,4 @@ C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_Min
 C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csproj.GenerateResource.Cache
 C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.dll
 C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.pdb
+C:\Users\iShinta\SkyDrive\Classes\MIS333K-Lucy\Assignments\Ho_MinhTri_HW4\Ho_MinhTri_HW4\obj\Debug\Ho_MinhTri_HW4.csprojResolveAssemblyReference.cache
