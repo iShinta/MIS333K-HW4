@@ -60,6 +60,20 @@
 
     </dl>
 </div>
+<table class="table table-bordered">
+    <tr>
+        <th>Event Title</th>
+        <th>Event Date</th>
+    </tr>
+
+    @foreach (var item in Model.EventAttending)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.EventTitle)</td>
+            <td>@Html.DisplayFor(modelItem => item.EventDate)</td>
+        </tr>
+    }
+</table>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerID }) |
     @Html.ActionLink("Back to List", "Index")

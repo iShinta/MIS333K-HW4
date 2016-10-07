@@ -42,6 +42,20 @@
         </div>
 
         <div class="form-group">
+            @Html.LabelFor(model => model.SponsoringCommittee, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CommitteeID", (SelectList)ViewBag.AllCommittees, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Customers, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.ListBox("SelectedMembers", (MultiSelectList)ViewBag.AllMembers, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
             @Html.LabelFor(model => model.CustomersOnly, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 <div class="checkbox">
