@@ -40,6 +40,6 @@ namespace Ho_MinhTri_HW4.Models
         //NAVIGATION PROPERTIES
         [Display (Name = "Sponsoring Committee")]
         public virtual Committee SponsoringCommittee { get; set; }
-        public virtual List<Customer> Members { get; set; }
+        public virtual List<Customer> Customers { get; set; }
     }
 }
